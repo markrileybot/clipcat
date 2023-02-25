@@ -51,7 +51,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = { version = "1", optional = true }
 
 x11-clipboard = { git = "https://github.com/wrvsrx/x11-clipboard", rev = "d7eb4d7de3b6560ae461ad55562517fed3ca0f04", optional = true }
-wl-clipboard-rs = { version = "0.7", optional = true }
+wl-clipboard-rs = { version = "0.7", optional = true, features = ["native_lib"] }
 
 bincode = { version = "1", optional = true }
 
